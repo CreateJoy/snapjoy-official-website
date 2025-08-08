@@ -1,0 +1,9 @@
+目标：制作一个休闲手游公司的官方网站，公司名称：SnapJoy CO., LIMITED
+
+细节：希望在网页展示3个我们公司推出的手游
+手游1：Find The Kitty（iOS网址：https://apps.apple.com/us/app/find-the-kitty-triple-match/id6745998019）
+手游2：Match Tile Scenery（iOS网址：https://apps.apple.com/us/app/match-tile-scenery/id1595779374）
+手游3：Match Kitty Tile（iOS网址：https://apps.apple.com/us/app/match-kitty-tile-find-the-cat/id6749048232）
+
+要网站风格和样式：参考Lion Studios	lionstudios.cc	多语言支持 + 动态元素丰富
+

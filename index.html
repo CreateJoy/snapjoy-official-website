@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapJoy CO., LIMITED - Mobile Games Publisher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+        </select>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>SnapJoy</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#games" data-i18n="nav.games">Games</a></li>
+                <li><a href="#publishing" data-i18n="nav.publishing">Publishing</a></li>
+                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                <li><a href="#careers" data-i18n="nav.careers">Careers</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 data-i18n="hero.title">Creating Joyful Gaming Experiences</h1>
+                <p data-i18n="hero.subtitle">SnapJoy CO., LIMITED brings you the most engaging casual mobile games that spark joy and fun in your daily life.</p>
+                <button class="cta-button" onclick="scrollToGames()" data-i18n="hero.cta">Discover Our Games</button>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-icons">
+                    <i class="fas fa-gamepad"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="games.title">Our Games</h2>
+            <div class="games-grid">
+                <!-- Game 1: Find The Kitty -->
+                <div class="game-card" data-aos="fade-up">
+                    <div class="game-image">
+                        <img src="images/find-the-kitty.jpg" alt="Find The Kitty" loading="lazy">
+                        <div class="game-overlay">
+                            <h3 data-i18n="games.game1.title">Find The Kitty</h3>
+                            <p data-i18n="games.game1.description">Triple Match</p>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h4 data-i18n="games.game1.title">Find The Kitty</h4>
+                        <p data-i18n="games.game1.subtitle">Triple Match Adventure</p>
+                        <div class="download-buttons">
+                            <a href="https://apps.apple.com/us/app/find-the-kitty-triple-match/id6745998019" target="_blank" class="download-btn ios">
+                                <i class="fab fa-apple"></i>
+                                <span data-i18n="games.download.ios">App Store</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 2: Match Tile Scenery -->
+                <div class="game-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="game-image">
+                        <img src="images/match-tile-scenery.jpg" alt="Match Tile Scenery" loading="lazy">
+                        <div class="game-overlay">
+                            <h3 data-i18n="games.game2.title">Match Tile Scenery</h3>
+                            <p data-i18n="games.game2.description">Tile Matching</p>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h4 data-i18n="games.game2.title">Match Tile Scenery</h4>
+                        <p data-i18n="games.game2.subtitle">Beautiful Tile Matching</p>
+                        <div class="download-buttons">
+                            <a href="https://apps.apple.com/us/app/match-tile-scenery/id1595779374" target="_blank" class="download-btn ios">
+                                <i class="fab fa-apple"></i>
+                                <span data-i18n="games.download.ios">App Store</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 3: Match Kitty Tile -->
+                <div class="game-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="game-image">
+                        <img src="images/match-kitty-tile.jpg" alt="Match Kitty Tile" loading="lazy">
+                        <div class="game-overlay">
+                            <h3 data-i18n="games.game3.title">Match Kitty Tile</h3>
+                            <p data-i18n="games.game3.description">Find The Cat</p>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h4 data-i18n="games.game3.title">Match Kitty Tile</h4>
+                        <p data-i18n="games.game3.subtitle">Find The Cat Adventure</p>
+                        <div class="download-buttons">
+                            <a href="https://apps.apple.com/us/app/match-kitty-tile-find-the-cat/id6749048232" target="_blank" class="download-btn ios">
+                                <i class="fab fa-apple"></i>
+                                <span data-i18n="games.download.ios">App Store</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Gallery Carousel Section -->
+    <section id="trailers" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="gallery.title">Game Gallery</h2>
+            
+            <div class="carousels-grid">
+                <!-- Find The Kitty Carousel -->
+                <div class="game-carousel-section">
+                    <h3 class="game-carousel-title" data-i18n="games.game1.title">Find The Kitty</h3>
+                    <div class="carousel-container" data-game="find-the-kitty">
+                        <div class="carousel-wrapper">
+                            <div class="carousel-slides">
+                                <div class="carousel-slide active">
+                                    <img src="images/find-the-kitty/screenshot1.jpg" alt="Find The Kitty Screenshot 1" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/find-the-kitty/screenshot2.jpg" alt="Find The Kitty Screenshot 2" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/find-the-kitty/screenshot3.jpg" alt="Find The Kitty Screenshot 3" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/find-the-kitty/screenshot4.jpg" alt="Find The Kitty Screenshot 4" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/find-the-kitty/screenshot5.jpg" alt="Find The Kitty Screenshot 5" loading="lazy">
+                                </div>
+                            </div>
+                            <button class="carousel-btn-prev" aria-label="Previous">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="carousel-btn-next" aria-label="Next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="carousel-dots">
+                            <button class="dot active" data-slide="0"></button>
+                            <button class="dot" data-slide="1"></button>
+                            <button class="dot" data-slide="2"></button>
+                            <button class="dot" data-slide="3"></button>
+                            <button class="dot" data-slide="4"></button>
+                        </div>
+                        <div class="carousel-info">
+                            <p data-i18n="games.game1.subtitle">Triple Match Adventure</p>
+                            <a href="https://apps.apple.com/us/app/find-the-kitty-triple-match/id6745998019" target="_blank" class="carousel-btn">
+                                <i class="fab fa-apple"></i>
+                                <span data-i18n="games.download.ios">Download</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Match Tile Scenery Carousel -->
+                <div class="game-carousel-section">
+                    <h3 class="game-carousel-title" data-i18n="games.game2.title">Match Tile Scenery</h3>
+                    <div class="carousel-container" data-game="match-tile-scenery">
+                        <div class="carousel-wrapper">
+                            <div class="carousel-slides">
+                                <div class="carousel-slide active">
+                                    <img src="images/match-tile-scenery/screenshot1.jpg" alt="Match Tile Scenery Screenshot 1" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/match-tile-scenery/screenshot2.jpg" alt="Match Tile Scenery Screenshot 2" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/match-tile-scenery/screenshot3.jpg" alt="Match Tile Scenery Screenshot 3" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/match-tile-scenery/screenshot4.jpg" alt="Match Tile Scenery Screenshot 4" loading="lazy">
+                                </div>
+                            </div>
+                            <button class="carousel-btn-prev" aria-label="Previous">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="carousel-btn-next" aria-label="Next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="carousel-dots">
+                            <button class="dot active" data-slide="0"></button>
+                            <button class="dot" data-slide="1"></button>
+                            <button class="dot" data-slide="2"></button>
+                            <button class="dot" data-slide="3"></button>
+                        </div>
+                        <div class="carousel-info">
+                            <p data-i18n="games.game2.subtitle">Beautiful Tile Matching</p>
+                            <a href="https://apps.apple.com/us/app/match-tile-scenery/id1595779374" target="_blank" class="carousel-btn">
+                                <i class="fab fa-apple"></i>
+                                <span data-i18n="games.download.ios">Download</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Match Kitty Tile Carousel -->
+                <div class="game-carousel-section">
+                    <h3 class="game-carousel-title" data-i18n="games.game3.title">Match Kitty Tile</h3>
+                    <div class="carousel-container" data-game="match-kitty-tile">
+                        <div class="carousel-wrapper">
+                            <div class="carousel-slides">
+                                <div class="carousel-slide active">
+                                    <img src="images/match-kitty-tile/screenshot4.jpg" alt="Match Kitty Tile Screenshot 4" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/match-kitty-tile/screenshot5.jpg" alt="Match Kitty Tile Screenshot 5" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/match-kitty-tile/screenshot1.jpg" alt="Match Kitty Tile Screenshot 1" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/match-kitty-tile/screenshot2.jpg" alt="Match Kitty Tile Screenshot 2" loading="lazy">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/match-kitty-tile/screenshot3.jpg" alt="Match Kitty Tile Screenshot 3" loading="lazy">
+                                </div>
+                            </div>
+                            <button class="carousel-btn-prev" aria-label="Previous">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="carousel-btn-next" aria-label="Next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="carousel-dots">
+                            <button class="dot active" data-slide="0"></button>
+                            <button class="dot" data-slide="1"></button>
+                            <button class="dot" data-slide="2"></button>
+                            <button class="dot" data-slide="3"></button>
+                            <button class="dot" data-slide="4"></button>
+                        </div>
+                        <div class="carousel-info">
+                            <p data-i18n="games.game3.subtitle">Find The Cat Adventure</p>
+                            <a href="https://apps.apple.com/us/app/match-kitty-tile-find-the-cat/id6749048232" target="_blank" class="carousel-btn">
+                                <i class="fab fa-apple"></i>
+                                <span data-i18n="games.download.ios">Download</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publishing Section -->
+    <section id="publishing" class="publishing-section">
+        <div class="container">
+            <div class="publishing-content">
+                <div class="publishing-text">
+                    <h2 data-i18n="publishing.title">Publish With SnapJoy</h2>
+                    <p data-i18n="publishing.subtitle">Join our growing family of successful game developers</p>
+                    <div class="publishing-features">
+                        <div class="feature-item">
+                            <i class="fas fa-rocket"></i>
+                            <h4 data-i18n="publishing.feature1.title">Growth Support</h4>
+                            <p data-i18n="publishing.feature1.desc">We help scale your game with expert marketing and user acquisition</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h4 data-i18n="publishing.feature2.title">Analytics & Insights</h4>
+                            <p data-i18n="publishing.feature2.desc">Advanced analytics to optimize your game's performance</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-handshake"></i>
+                            <h4 data-i18n="publishing.feature3.title">Partnership</h4>
+                            <p data-i18n="publishing.feature3.desc">True collaborative partnership for long-term success</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="submission-form">
+                    <h3 data-i18n="publishing.form.title">Submit Your Game</h3>
+                    <form id="gameSubmissionForm">
+                        <div class="form-group">
+                            <input type="text" id="developerName" name="developerName" required>
+                            <label for="developerName" data-i18n="publishing.form.name">Developer Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-i18n="publishing.form.email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="gameName" name="gameName" required>
+                            <label for="gameName" data-i18n="publishing.form.game">Game Name</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="gameGenre" name="gameGenre" required>
+                                <option value="" data-i18n="publishing.form.genre.select">Select Genre</option>
+                                <option value="puzzle" data-i18n="publishing.form.genre.puzzle">Puzzle</option>
+                                <option value="casual" data-i18n="publishing.form.genre.casual">Casual</option>
+                                <option value="arcade" data-i18n="publishing.form.genre.arcade">Arcade</option>
+                                <option value="strategy" data-i18n="publishing.form.genre.strategy">Strategy</option>
+                                <option value="other" data-i18n="publishing.form.genre.other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="gameDescription" name="gameDescription" rows="4" required></textarea>
+                            <label for="gameDescription" data-i18n="publishing.form.description">Game Description</label>
+                        </div>
+                        <button type="submit" class="submit-btn" data-i18n="publishing.form.submit">Submit Game</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="testimonials.title">What Developers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-content">
+                        <p data-i18n="testimonials.testimonial1.text">"Working with SnapJoy has been incredible. They helped us scale our game to over 1M downloads with their expert marketing support."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 data-i18n="testimonials.testimonial1.author">Alex Chen</h4>
+                                <span data-i18n="testimonials.testimonial1.company">Indie Game Studio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <p data-i18n="testimonials.testimonial2.text">"The analytics and insights provided by SnapJoy helped us optimize our game mechanics and increase player retention significantly."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 data-i18n="testimonials.testimonial2.author">Maria Rodriguez</h4>
+                                <span data-i18n="testimonials.testimonial2.company">Creative Games Co.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <p data-i18n="testimonials.testimonial3.text">"SnapJoy's collaborative approach makes them the perfect publishing partner. They truly care about our game's success."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 data-i18n="testimonials.testimonial3.author">David Kim</h4>
+                                <span data-i18n="testimonials.testimonial3.company">Mobile Games Inc.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-i18n="about.title">About SnapJoy</h2>
+                    <p data-i18n="about.description">SnapJoy CO., LIMITED is a passionate mobile game publisher dedicated to creating engaging and joyful gaming experiences. We specialize in casual games that bring fun and entertainment to players worldwide, while helping independent developers achieve their dreams.</p>
+                    <div class="about-mission">
+                        <h3 data-i18n="about.mission.title">Our Mission</h3>
+                        <p data-i18n="about.mission.text">To bridge the gap between talented game developers and global audiences, creating a thriving ecosystem where creativity meets commercial success.</p>
+                    </div>
+                    <div class="about-values">
+                        <h3 data-i18n="about.values.title">Our Values</h3>
+                        <ul>
+                            <li data-i18n="about.values.innovation">Innovation in game design and publishing</li>
+                            <li data-i18n="about.values.collaboration">Collaborative partnership with developers</li>
+                            <li data-i18n="about.values.quality">Quality-first approach to game publishing</li>
+                            <li data-i18n="about.values.community">Building strong gaming communities</li>
+                        </ul>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3 data-i18n="about.stats.games.value">3+</h3>
+                            <p data-i18n="about.stats.games">Games Published</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 data-i18n="about.stats.downloads.value">500K+</h3>
+                            <p data-i18n="about.stats.downloads">Downloads</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 data-i18n="about.stats.rating.value">4.5+</h3>
+                            <p data-i18n="about.stats.rating">Average Rating</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 data-i18n="about.stats.partners.value">50+</h3>
+                            <p data-i18n="about.stats.partners">Developer Partners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="careers-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="careers.title">Join Our Team</h2>
+            <p class="careers-subtitle" data-i18n="careers.subtitle">Help us create the future of mobile gaming</p>
+            <div class="jobs-grid">
+                <div class="job-card" data-aos="fade-up">
+                    <div class="job-header">
+                        <h3 data-i18n="careers.job1.title">Game Producer</h3>
+                        <span class="job-type" data-i18n="careers.job1.type">Full-time</span>
+                    </div>
+                    <p data-i18n="careers.job1.description">Lead game development projects from concept to launch, working closely with our development teams and external partners.</p>
+                    <div class="job-requirements">
+                        <h4 data-i18n="careers.requirements">Requirements:</h4>
+                        <ul>
+                            <li data-i18n="careers.job1.req1">3+ years experience in game production</li>
+                            <li data-i18n="careers.job1.req2">Strong project management skills</li>
+                            <li data-i18n="careers.job1.req3">Experience with mobile games</li>
+                        </ul>
+                    </div>
+                    <button class="apply-btn" data-i18n="careers.apply">Apply Now</button>
+                </div>
+                <div class="job-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="job-header">
+                        <h3 data-i18n="careers.job2.title">Marketing Manager</h3>
+                        <span class="job-type" data-i18n="careers.job2.type">Full-time</span>
+                    </div>
+                    <p data-i18n="careers.job2.description">Drive user acquisition and marketing campaigns for our mobile game portfolio across multiple platforms.</p>
+                    <div class="job-requirements">
+                        <h4 data-i18n="careers.requirements">Requirements:</h4>
+                        <ul>
+                            <li data-i18n="careers.job2.req1">Digital marketing experience</li>
+                            <li data-i18n="careers.job2.req2">Mobile game marketing knowledge</li>
+                            <li data-i18n="careers.job2.req3">Analytics and data-driven mindset</li>
+                        </ul>
+                    </div>
+                    <button class="apply-btn" data-i18n="careers.apply">Apply Now</button>
+                </div>
+                <div class="job-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="job-header">
+                        <h3 data-i18n="careers.job3.title">Business Development</h3>
+                        <span class="job-type" data-i18n="careers.job3.type">Full-time</span>
+                    </div>
+                    <p data-i18n="careers.job3.description">Identify and establish partnerships with game developers and other industry stakeholders.</p>
+                    <div class="job-requirements">
+                        <h4 data-i18n="careers.requirements">Requirements:</h4>
+                        <ul>
+                            <li data-i18n="careers.job3.req1">Business development experience</li>
+                            <li data-i18n="careers.job3.req2">Gaming industry knowledge</li>
+                            <li data-i18n="careers.job3.req3">Strong communication skills</li>
+                        </ul>
+                    </div>
+                    <button class="apply-btn" data-i18n="careers.apply">Apply Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-column">
+                    <h3 data-i18n="faq.developers.title">For Developers</h3>
+                    <div class="faq-item">
+                        <button class="faq-question" data-i18n="faq.dev1.question">How do I submit my game?</button>
+                        <div class="faq-answer">
+                            <p data-i18n="faq.dev1.answer">You can submit your game using the form in our Publishing section. We'll review your submission within 5-7 business days.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" data-i18n="faq.dev2.question">What types of games do you publish?</button>
+                        <div class="faq-answer">
+                            <p data-i18n="faq.dev2.answer">We focus on casual mobile games including puzzle, match-3, arcade, and strategy games that appeal to a broad audience.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" data-i18n="faq.dev3.question">What support do you provide?</button>
+                        <div class="faq-answer">
+                            <p data-i18n="faq.dev3.answer">We provide marketing support, user acquisition, analytics, monetization optimization, and technical assistance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-column">
+                    <h3 data-i18n="faq.players.title">For Players</h3>
+                    <div class="faq-item">
+                        <button class="faq-question" data-i18n="faq.play1.question">Are your games free to play?</button>
+                        <div class="faq-answer">
+                            <p data-i18n="faq.play1.answer">Yes, all our games are free to download and play, with optional in-app purchases available.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" data-i18n="faq.play2.question">How do I report a bug or issue?</button>
+                        <div class="faq-answer">
+                            <p data-i18n="faq.play2.answer">Please contact us through our support email or leave a review on the app store with details about the issue.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" data-i18n="faq.play3.question">Do you have upcoming games?</button>
+                        <div class="faq-answer">
+                            <p data-i18n="faq.play3.answer">We're always working on exciting new titles! Follow us on social media for the latest updates and announcements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 data-i18n="contact.title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-i18n="contact.email.title">Email</h4>
+                            <p data-i18n="contact.email.value">contact@snapjoy.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-building"></i>
+                        <div>
+                            <h4 data-i18n="contact.company.title">Company</h4>
+                            <p data-i18n="contact.company.value">SnapJoy CO., LIMITED</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>SnapJoy</h3>
+                    <p data-i18n="footer.tagline">Creating Joyful Gaming Experiences</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 data-i18n="footer.company">Company</h4>
+                        <a href="#about" data-i18n="nav.about">About</a>
+                        <a href="#careers" data-i18n="nav.careers">Careers</a>
+                        <a href="#contact" data-i18n="nav.contact">Contact</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4 data-i18n="footer.games">Games</h4>
+                        <a href="#games" data-i18n="nav.games">Our Games</a>
+                        <a href="#publishing" data-i18n="nav.publishing">Publishing</a>
+                        <a href="#trailers" data-i18n="footer.gallery">Gallery</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4 data-i18n="footer.support">Support</h4>
+                        <a href="#faq" data-i18n="footer.faq">FAQ</a>
+                        <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+                        <a href="terms.html" data-i18n="footer.terms">Terms of Service</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4 data-i18n="footer.social">Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2024 SnapJoy CO., LIMITED.</p> <span data-i18n="footer.rights">All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
