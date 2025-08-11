@@ -1232,6 +1232,8 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(78, 205, 196, 0.3);
+    text-decoration: none;
+    display: inline-block;
 }
 
 .apply-btn:hover {
