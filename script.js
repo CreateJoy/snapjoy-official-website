@@ -756,35 +756,9 @@ function handleParallax() {
     }
 }
 
-// Counter animation for stats
+// Static display for stats (animation removed)
 function animateCounters() {
-    const counters = document.querySelectorAll('.stat-item h3');
-    const speed = 200;
-
-    counters.forEach(counter => {
-        const target = counter.innerText;
-        const count = +counter.innerText.replace(/\D/g, '');
-        const increment = count / speed;
-        let current = 0;
-
-        const updateCount = () => {
-            if (current < count) {
-                current += increment;
-                if (target.includes('K')) {
-                    counter.innerText = Math.ceil(current) + 'K+';
-                } else if (target.includes('.')) {
-                    counter.innerText = (current / 10).toFixed(1) + '+';
-                } else {
-                    counter.innerText = Math.ceil(current) + '+';
-                }
-                setTimeout(updateCount, 1);
-            } else {
-                counter.innerText = target;
-            }
-        };
-        
-        updateCount();
-    });
+    // Animation removed - stats display statically
 }
 
 // Intersection Observer for animations
@@ -800,10 +774,7 @@ function setupIntersectionObserver() {
                 entry.target.style.opacity = '1';
                 entry.target.style.transform = 'translateY(0)';
                 
-                // Trigger counter animation for stats section
-                if (entry.target.classList.contains('stats')) {
-                    setTimeout(animateCounters, 300);
-                }
+                // Stats animation removed - display statically
             }
         });
     }, observerOptions);
