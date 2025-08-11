@@ -1,0 +1,35 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Business documents (keep private)
+*商业计划书*
+*Business Plan*
+需求文档.txt
+cc_ctok.*
+cc_mir.*
+
+# Build files
+dist/
+build/

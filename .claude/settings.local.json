@@ -5,7 +5,10 @@
       "WebFetch(domain:lionstudios.cc)",
       "Bash(mkdir:*)",
       "Bash(cp:*)",
-      "Bash(xcopy:*)"
+      "Bash(xcopy:*)",
+      "Bash(start index.html)",
+      "Bash(node:*)",
+      "Bash(grep:*)"
     ],
     "deny": []
   }

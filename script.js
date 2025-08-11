@@ -134,13 +134,13 @@ const translations = {
         "hero.subtitle": "SnapJoy有限公司为您带来最引人入胜的休闲手机游戏，为您的日常生活带来快乐和乐趣。",
         "hero.cta": "探索我们的游戏",
         "games.title": "我们的游戏",
-        "games.game1.title": "找小猫",
+        "games.game1.title": "Find The Kitty",
         "games.game1.description": "三消游戏",
         "games.game1.subtitle": "三消冒险",
-        "games.game2.title": "匹配瓷砖风景",
+        "games.game2.title": "Match Tile Scenery",
         "games.game2.description": "瓷砖匹配",
         "games.game2.subtitle": "美丽的瓷砖匹配",
-        "games.game3.title": "匹配小猫瓷砖",
+        "games.game3.title": "Match Kitty Tile",
         "games.game3.description": "找猫咪",
         "games.game3.subtitle": "找猫咪冒险",
         "games.download.ios": "应用商店",
@@ -166,13 +166,13 @@ const translations = {
         "publishing.form.genre.other": "其他",
         "publishing.form.submit": "提交游戏",
         "testimonials.title": "开发者评价",
-        "testimonials.testimonial1.text": ""与SnapJoy合作令人难以置信。他们通过专业的营销支持帮助我们的游戏获得了超过100万次下载。"",
+        "testimonials.testimonial1.text": "\"与SnapJoy合作令人难以置信。他们通过专业的营销支持帮助我们的游戏获得了超过100万次下载。\"",
         "testimonials.testimonial1.author": "陈亚历",
         "testimonials.testimonial1.company": "独立游戏工作室",
-        "testimonials.testimonial2.text": ""SnapJoy提供的分析和洞察帮助我们优化游戏机制，显著提高了玩家留存率。"",
+        "testimonials.testimonial2.text": "\"SnapJoy提供的分析和洞察帮助我们优化游戏机制，显著提高了玩家留存率。\"",
         "testimonials.testimonial2.author": "玛利亚·罗德里格斯",
         "testimonials.testimonial2.company": "创意游戏公司",
-        "testimonials.testimonial3.text": ""SnapJoy的协作方式使他们成为完美的发行合作伙伴。他们真正关心我们游戏的成功。"",
+        "testimonials.testimonial3.text": "\"SnapJoy的协作方式使他们成为完美的发行合作伙伴。他们真正关心我们游戏的成功。\"",
         "testimonials.testimonial3.author": "金大卫",
         "testimonials.testimonial3.company": "移动游戏有限公司",
         "about.title": "关于SnapJoy",
@@ -257,13 +257,13 @@ const translations = {
         "hero.subtitle": "SnapJoy CO., LIMITEDは、日常生活に喜びと楽しさをもたらす最も魅力的なカジュアルモバイルゲームをお届けします。",
         "hero.cta": "ゲームを発見する",
         "games.title": "私たちのゲーム",
-        "games.game1.title": "子猫を探せ",
+        "games.game1.title": "Find The Kitty",
         "games.game1.description": "三つ揃え",
         "games.game1.subtitle": "三つ揃えアドベンチャー",
-        "games.game2.title": "タイル風景マッチ",
+        "games.game2.title": "Match Tile Scenery",
         "games.game2.description": "タイルマッチング",
         "games.game2.subtitle": "美しいタイルマッチング",
-        "games.game3.title": "子猫タイルマッチ",
+        "games.game3.title": "Match Kitty Tile",
         "games.game3.description": "猫を探す",
         "games.game3.subtitle": "猫探しアドベンチャー",
         "games.download.ios": "App Store",
@@ -380,13 +380,13 @@ const translations = {
         "hero.subtitle": "SnapJoy CO., LIMITED는 일상생활에 기쁨과 재미를 가져다주는 가장 매력적인 캐주얼 모바일 게임을 제공합니다.",
         "hero.cta": "게임 둘러보기",
         "games.title": "우리의 게임",
-        "games.game1.title": "고양이 찾기",
+        "games.game1.title": "Find The Kitty",
         "games.game1.description": "삼중 매치",
         "games.game1.subtitle": "삼중 매치 어드벤처",
-        "games.game2.title": "타일 풍경 매치",
+        "games.game2.title": "Match Tile Scenery",
         "games.game2.description": "타일 매칭",
         "games.game2.subtitle": "아름다운 타일 매칭",
-        "games.game3.title": "고양이 타일 매치",
+        "games.game3.title": "Match Kitty Tile",
         "games.game3.description": "고양이 찾기",
         "games.game3.subtitle": "고양이 찾기 어드벤처",
         "games.download.ios": "앱스토어",
@@ -412,13 +412,13 @@ const translations = {
         "publishing.form.genre.other": "기타",
         "publishing.form.submit": "게임 제출",
         "testimonials.title": "개발자 리뷰",
-        "testimonials.testimonial1.text": ""SnapJoy와의 협력은 놀라운 경험이었습니다. 전문적인 마케팅 지원을 통해 저희 게임이 100만 다운로드를 넘을 수 있었습니다."",
+        "testimonials.testimonial1.text": "\"SnapJoy와의 협력은 놀라운 경험이었습니다. 전문적인 마케팅 지원을 통해 저희 게임이 100만 다운로드를 넘을 수 있었습니다.\"",
         "testimonials.testimonial1.author": "알렉스 첸",
         "testimonials.testimonial1.company": "인디 게임 스튜디오",
-        "testimonials.testimonial2.text": ""SnapJoy가 제공하는 분석과 인사이트를 통해 게임 메커니즘을 최적화하고 플레이어 유지율을 크게 향상시킬 수 있었습니다."",
+        "testimonials.testimonial2.text": "\"SnapJoy가 제공하는 분석과 인사이트를 통해 게임 메커니즘을 최적화하고 플레이어 유지율을 크게 향상시킬 수 있었습니다.\"",
         "testimonials.testimonial2.author": "마리아 로드리게스",
         "testimonials.testimonial2.company": "크리에이티브 게임즈",
-        "testimonials.testimonial3.text": ""SnapJoy의 협력적인 접근 방식은 그들을 완벽한 퍼블리싱 파트너로 만듭니다. 저희 게임의 성공을 진정으로 중요하게 생각합니다."",
+        "testimonials.testimonial3.text": "\"SnapJoy의 협력적인 접근 방식은 그들을 완벽한 퍼블리싱 파트너로 만듭니다. 저희 게임의 성공을 진정으로 중요하게 생각합니다.\"",
         "testimonials.testimonial3.author": "데이비드 김",
         "testimonials.testimonial3.company": "모바일 게임즈 Inc.",
         "about.title": "SnapJoy 소개",
@@ -505,10 +505,33 @@ function changeLanguage(lang) {
 
 function updateContent() {
     const elements = document.querySelectorAll('[data-i18n]');
+    
     elements.forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[currentLanguage] && translations[currentLanguage][key]) {
-            element.textContent = translations[currentLanguage][key];
+            // Handle different types of elements
+            if (element.tagName === 'INPUT' && (element.type === 'text' || element.type === 'email')) {
+                // Don't change input values, only labels
+                return;
+            } else if (element.tagName === 'TEXTAREA') {
+                // Don't change textarea content
+                return;
+            } else if (element.tagName === 'OPTION') {
+                // Update option text
+                element.textContent = translations[currentLanguage][key];
+            } else {
+                // Update text content for most elements
+                element.textContent = translations[currentLanguage][key];
+            }
+        }
+    });
+    
+    // Update placeholder texts for form inputs
+    const placeholderElements = document.querySelectorAll('[data-i18n-placeholder]');
+    placeholderElements.forEach(element => {
+        const key = element.getAttribute('data-i18n-placeholder');
+        if (translations[currentLanguage] && translations[currentLanguage][key]) {
+            element.placeholder = translations[currentLanguage][key];
         }
     });
 }
@@ -685,11 +708,20 @@ function setupCarousel() {
     });
 }
 
-// Smooth scrolling
+// Smooth scrolling with navbar offset
 function scrollToGames() {
-    document.getElementById('games').scrollIntoView({
-        behavior: 'smooth'
-    });
+    const element = document.getElementById('games');
+    if (element) {
+        const navbar = document.querySelector('.navbar');
+        const navbarHeight = navbar ? navbar.offsetHeight : 70;
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - navbarHeight - 20;
+        
+        window.scrollTo({
+            top: Math.max(0, offsetPosition),
+            behavior: 'smooth'
+        });
+    }
 }
 
 // Mobile navigation toggle
@@ -835,13 +867,31 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load saved language preference
     const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
     currentLanguage = savedLanguage;
-    document.getElementById('language-select').value = savedLanguage;
+    
+    // Ensure language selector exists before setting value
+    const languageSelect = document.getElementById('language-select');
+    if (languageSelect) {
+        languageSelect.value = savedLanguage;
+    }
     updateContent();
 
-    // Language selector
-    document.getElementById('language-select').addEventListener('change', (e) => {
-        changeLanguage(e.target.value);
-    });
+    // Language selector event handler
+    if (languageSelect) {
+        languageSelect.addEventListener('change', function(e) {
+            const selectedLanguage = e.target.value;
+            changeLanguage(selectedLanguage);
+        });
+        
+        // Also trigger on click to ensure it works
+        languageSelect.addEventListener('click', function() {
+            setTimeout(() => {
+                const selectedLanguage = this.value;
+                if (selectedLanguage !== currentLanguage) {
+                    changeLanguage(selectedLanguage);
+                }
+            }, 100);
+        });
+    }
 
     // Mobile navigation
     document.querySelector('.hamburger').addEventListener('click', toggleMobileNav);
@@ -854,16 +904,34 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Smooth scrolling for all navigation links
+    // Smooth scrolling for all navigation links with navbar offset
+    function smoothScrollToElement(target) {
+        const navbar = document.querySelector('.navbar');
+        const navbarHeight = navbar ? navbar.offsetHeight : 70; // fallback height
+        let extraPadding = 20;
+        
+        // Special handling for home section
+        if (target.id === 'home') {
+            extraPadding = -navbarHeight; // Scroll to very top for hero
+        }
+        
+        const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - navbarHeight - extraPadding;
+        
+        window.scrollTo({
+            top: Math.max(0, offsetPosition), // Don't scroll above top
+            behavior: 'smooth'
+        });
+    }
+    
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
+            const targetId = this.getAttribute('href');
+            const target = document.querySelector(targetId);
+            
             if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
+                smoothScrollToElement(target);
             }
         });
     });
@@ -898,6 +966,13 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.opacity = '1';
     }, 100);
 });
+
+// Global function for testing language switching
+window.testLanguageSwitch = function(lang) {
+    console.log('Testing language switch to:', lang);
+    changeLanguage(lang);
+    console.log('Test completed');
+};
 
 // Add CSS for hamburger active state
 const style = document.createElement('style');
