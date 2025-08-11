@@ -48,4 +48,4 @@ Company: SnapJoy CO., LIMITED
 
 ---
 
-© 2024 SnapJoy CO., LIMITED. All rights reserved.
+© 2025 SnapJoy CO., LIMITED. All rights reserved.
