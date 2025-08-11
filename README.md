@@ -9,7 +9,7 @@ SnapJoy is a passionate mobile game publisher dedicated to creating engaging and
 ## 🌟 Featured Games
 
 - **Find The Kitty** - Triple Match Adventure
-- **Match Tile Scenery** - Beautiful Tile Matching  
+- **Bus Parking Jam** - Strategic Parking Challenge  
 - **Match Kitty Tile** - Find The Cat Adventure
 
 ## 🌍 Multi-Language Support
