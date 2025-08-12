@@ -32,4 +32,5 @@ cc_mir.*
 
 # Build files
 dist/
-build/
+build/.claude/
+*.patch
