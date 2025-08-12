@@ -91,6 +91,12 @@ const translations = {
         "careers.job3.req3": "Strong communication skills",
         "careers.requirements": "Requirements:",
         "careers.apply": "Apply Now",
+        "careers.email.job1.subject": "Application for Game Producer Position",
+        "careers.email.job1.body": "Hello, I am interested in the Game Producer position. Please contact me to discuss further.",
+        "careers.email.job2.subject": "Application for Marketing Manager Position", 
+        "careers.email.job2.body": "Hello, I am interested in the Marketing Manager position. Please contact me to discuss further.",
+        "careers.email.job3.subject": "Application for Business Development Position",
+        "careers.email.job3.body": "Hello, I am interested in the Business Development position. Please contact me to discuss further.",
         "faq.title": "Frequently Asked Questions",
         "faq.developers.title": "For Developers",
         "faq.players.title": "For Players",
@@ -214,6 +220,12 @@ const translations = {
         "careers.job3.req2": "游戏行业知识",
         "careers.job3.req3": "强大的沟通技能",
         "careers.apply": "立即申请",
+        "careers.email.job1.subject": "申请游戏制作人职位",
+        "careers.email.job1.body": "您好，我对游戏制作人职位很感兴趣，请联系我进一步讨论。",
+        "careers.email.job2.subject": "申请市场经理职位",
+        "careers.email.job2.body": "您好，我对市场经理职位很感兴趣，请联系我进一步讨论。", 
+        "careers.email.job3.subject": "申请商务拓展职位",
+        "careers.email.job3.body": "您好，我对商务拓展职位很感兴趣，请联系我进一步讨论。",
         "faq.title": "常见问题",
         "faq.developers.title": "开发者",
         "faq.dev1.question": "我如何提交我的游戏？",
@@ -337,6 +349,12 @@ const translations = {
         "careers.job3.req3": "強力なコミュニケーションスキル",
         "careers.requirements": "必要条件：",
         "careers.apply": "今すぐ応募",
+        "careers.email.job1.subject": "ゲームプロデューサーポジション応募",
+        "careers.email.job1.body": "こんにちは、ゲームプロデューサーのポジションに興味があります。詳細について話し合うためにご連絡ください。",
+        "careers.email.job2.subject": "マーケティングマネージャーポジション応募",
+        "careers.email.job2.body": "こんにちは、マーケティングマネージャーのポジションに興味があります。詳細について話し合うためにご連絡ください。",
+        "careers.email.job3.subject": "ビジネス開発ポジション応募", 
+        "careers.email.job3.body": "こんにちは、ビジネス開発のポジションに興味があります。詳細について話し合うためにご連絡ください。",
         "faq.title": "よくある質問",
         "faq.developers.title": "開発者向け",
         "faq.players.title": "プレイヤー向け",
@@ -460,6 +478,12 @@ const translations = {
         "careers.job3.req3": "강력한 커뮤니케이션 스킬",
         "careers.requirements": "요구사항:",
         "careers.apply": "지금 지원하기",
+        "careers.email.job1.subject": "게임 프로듀서 포지션 지원",
+        "careers.email.job1.body": "안녕하세요, 게임 프로듀서 포지션에 관심이 있습니다. 자세한 논의를 위해 연락 부탁드립니다.",
+        "careers.email.job2.subject": "마케팅 매니저 포지션 지원",
+        "careers.email.job2.body": "안녕하세요, 마케팅 매니저 포지션에 관심이 있습니다. 자세한 논의를 위해 연락 부탁드립니다.",
+        "careers.email.job3.subject": "비즈니스 개발 포지션 지원",
+        "careers.email.job3.body": "안녕하세요, 비즈니스 개발 포지션에 관심이 있습니다. 자세한 논의를 위해 연락 부탁드립니다.",
         "faq.title": "자주 묻는 질문",
         "faq.developers.title": "개발자용",
         "faq.players.title": "플레이어용",
@@ -496,6 +520,10 @@ const translations = {
 
 // Language switching functionality
 let currentLanguage = 'en';
+
+function getCurrentLanguage() {
+    return currentLanguage;
+}
 
 function changeLanguage(lang) {
     currentLanguage = lang;
@@ -534,6 +562,9 @@ function updateContent() {
             element.placeholder = translations[currentLanguage][key];
         }
     });
+    
+    // Update apply button mailto links
+    updateApplyButtonLinks();
 }
 
 // FAQ functionality
@@ -585,18 +616,21 @@ function setupFormSubmission() {
 
 // Job application handling
 function setupJobApplications() {
+    updateApplyButtonLinks();
+}
+
+// Update apply button mailto links with localized content
+function updateApplyButtonLinks() {
     const applyButtons = document.querySelectorAll('.apply-btn');
+    const currentLang = getCurrentLanguage();
     
     applyButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            e.preventDefault();
-            
-            const jobCard = button.closest('.job-card');
-            const jobTitle = jobCard.querySelector('h3').textContent;
-            
-            // In a real app, this would open an application form or redirect
-            alert(`Opening application form for: ${jobTitle}`);
-        });
+        const jobId = button.getAttribute('data-job');
+        if (jobId) {
+            const subject = encodeURIComponent(translations[currentLang][`careers.email.${jobId}.subject`] || '');
+            const body = encodeURIComponent(translations[currentLang][`careers.email.${jobId}.body`] || '');
+            button.href = `mailto:jobs@snapjoy.cc?subject=${subject}&body=${body}`;
+        }
     });
 }
 
