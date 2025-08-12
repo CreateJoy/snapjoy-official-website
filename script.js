@@ -115,6 +115,8 @@ const translations = {
         "contact.title": "Get In Touch",
         "contact.email.title": "Email",
         "contact.email.value": "contact@snapjoy.cc",
+        "contact.email.subject": "Inquiry from SnapJoy Website",
+        "contact.email.body": "Hello SnapJoy Team,\n\nI would like to inquire about...\n\nBest regards,",
         "contact.company.title": "Company",
         "contact.company.value": "SnapJoy CO., LIMITED",
         "footer.tagline": "Creating Joyful Gaming Experiences",
@@ -244,6 +246,8 @@ const translations = {
         "contact.title": "联系我们",
         "contact.email.title": "邮箱",
         "contact.email.value": "contact@snapjoy.cc",
+        "contact.email.subject": "来自SnapJoy网站的咨询",
+        "contact.email.body": "您好 SnapJoy 团队，\n\n我想咨询关于...\n\n此致\n敬礼",
         "contact.company.title": "公司",
         "contact.company.value": "SnapJoy CO., LIMITED",
         "footer.tagline": "创造快乐的游戏体验",
@@ -373,6 +377,8 @@ const translations = {
         "contact.title": "お問い合わせ",
         "contact.email.title": "メール",
         "contact.email.value": "contact@snapjoy.cc",
+        "contact.email.subject": "SnapJoyウェブサイトからのお問い合わせ",
+        "contact.email.body": "SnapJoyチーム様\n\n以下についてお問い合わせいたします...\n\nよろしくお願いいたします。",
         "contact.company.title": "会社",
         "contact.company.value": "SnapJoy CO., LIMITED",
         "footer.tagline": "楽しいゲーム体験を創造",
@@ -502,6 +508,8 @@ const translations = {
         "contact.title": "문의하기",
         "contact.email.title": "이메일",
         "contact.email.value": "contact@snapjoy.cc",
+        "contact.email.subject": "SnapJoy 웹사이트에서 문의",
+        "contact.email.body": "안녕하세요 SnapJoy 팀,\n\n다음에 대해 문의드리고 싶습니다...\n\n감사합니다.",
         "contact.company.title": "회사",
         "contact.company.value": "SnapJoy CO., LIMITED",
         "footer.tagline": "즐거운 게임 경험 창조",
@@ -565,6 +573,9 @@ function updateContent() {
     
     // Update apply button mailto links
     updateApplyButtonLinks();
+    
+    // Update contact email link
+    updateContactEmailLink();
 }
 
 // FAQ functionality
@@ -618,6 +629,18 @@ function setupFormSubmission() {
 function setupJobApplications() {
     updateApplyButtonLinks();
     console.log('Apply buttons updated with mailto links');
+}
+
+// Update contact email link with localized content
+function updateContactEmailLink() {
+    const contactEmail = document.querySelector('.contact-email');
+    const currentLang = getCurrentLanguage();
+    
+    if (contactEmail) {
+        const subject = encodeURIComponent(translations[currentLang]['contact.email.subject'] || '');
+        const body = encodeURIComponent(translations[currentLang]['contact.email.body'] || '');
+        contactEmail.href = `mailto:contact@snapjoy.cc?subject=${subject}&body=${body}`;
+    }
 }
 
 // Update apply button mailto links with localized content
@@ -949,6 +972,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupFAQ();
     setupFormSubmission();
     setupJobApplications();
+    updateContactEmailLink();
     setupCarousel();
     initializeAOS();
 

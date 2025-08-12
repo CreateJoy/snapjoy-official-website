@@ -687,6 +687,18 @@ body {
     color: var(--text-secondary);
 }
 
+.contact-email {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.contact-email:hover {
+    color: var(--primary-pink);
+    text-decoration: underline;
+}
+
 /* Gallery Carousel Section */
 .gallery-section {
     padding: 100px 0;
