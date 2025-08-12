@@ -14,9 +14,9 @@ const translations = {
         "games.game1.title": "Find The Kitty",
         "games.game1.description": "Triple Match",
         "games.game1.subtitle": "Triple Match Adventure",
-        "games.game2.title": "Match Tile Scenery",
-        "games.game2.description": "Tile Matching",
-        "games.game2.subtitle": "Beautiful Tile Matching",
+        "games.game2.title": "Bus Parking Jam",
+        "games.game2.description": "Puzzle Parking",
+        "games.game2.subtitle": "Strategic Parking Challenge",
         "games.game3.title": "Match Kitty Tile",
         "games.game3.description": "Find The Cat",
         "games.game3.subtitle": "Find The Cat Adventure",
@@ -68,7 +68,7 @@ const translations = {
         "about.stats.rating": "Average Rating",
         "about.stats.rating.value": "4.5+",
         "about.stats.partners": "Developer Partners",
-        "about.stats.partners.value": "50+",
+        "about.stats.partners.value": "3+",
         "careers.title": "Join Our Team",
         "careers.subtitle": "Help us create the future of mobile gaming",
         "careers.job1.title": "Game Producer",
@@ -108,12 +108,12 @@ const translations = {
         "faq.play3.answer": "We're always working on exciting new titles! Follow us on social media for the latest updates and announcements.",
         "contact.title": "Get In Touch",
         "contact.email.title": "Email",
-        "contact.email.value": "contact@snapjoy.com",
+        "contact.email.value": "contact@snapjoy.cc",
         "contact.company.title": "Company",
         "contact.company.value": "SnapJoy CO., LIMITED",
         "footer.tagline": "Creating Joyful Gaming Experiences",
         "footer.rights": "All rights reserved.",
-        "footer.copyright": "© 2024 SnapJoy CO., LIMITED.",
+        "footer.copyright": "© 2025 SnapJoy CO., LIMITED.",
         "footer.company": "Company",
         "footer.games": "Games",
         "footer.support": "Support",
@@ -137,9 +137,9 @@ const translations = {
         "games.game1.title": "Find The Kitty",
         "games.game1.description": "三消游戏",
         "games.game1.subtitle": "三消冒险",
-        "games.game2.title": "Match Tile Scenery",
-        "games.game2.description": "瓷砖匹配",
-        "games.game2.subtitle": "美丽的瓷砖匹配",
+        "games.game2.title": "Bus Parking Jam",
+        "games.game2.description": "停车挑战",
+        "games.game2.subtitle": "策略停车挑战",
         "games.game3.title": "Match Kitty Tile",
         "games.game3.description": "找猫咪",
         "games.game3.subtitle": "找猫咪冒险",
@@ -191,7 +191,7 @@ const translations = {
         "about.stats.rating": "平均评分",
         "about.stats.rating.value": "4.5+",
         "about.stats.partners": "开发者合作伙伴",
-        "about.stats.partners.value": "50+",
+        "about.stats.partners.value": "3+",
         "careers.title": "加入我们的团队",
         "careers.subtitle": "帮助我们创造移动游戏的未来",
         "careers.job1.title": "游戏制作人",
@@ -231,12 +231,12 @@ const translations = {
         "faq.play3.answer": "我们一直在开发令人兴奋的新作品！关注我们的社交媒体获取最新更新和公告。",
         "contact.title": "联系我们",
         "contact.email.title": "邮箱",
-        "contact.email.value": "contact@snapjoy.com",
+        "contact.email.value": "contact@snapjoy.cc",
         "contact.company.title": "公司",
         "contact.company.value": "SnapJoy CO., LIMITED",
         "footer.tagline": "创造快乐的游戏体验",
         "footer.rights": "版权所有。",
-        "footer.copyright": "© 2024 SnapJoy CO., LIMITED.",
+        "footer.copyright": "© 2025 SnapJoy CO., LIMITED.",
         "footer.company": "公司",
         "footer.games": "游戏",
         "footer.support": "支持",
@@ -260,9 +260,9 @@ const translations = {
         "games.game1.title": "Find The Kitty",
         "games.game1.description": "三つ揃え",
         "games.game1.subtitle": "三つ揃えアドベンチャー",
-        "games.game2.title": "Match Tile Scenery",
-        "games.game2.description": "タイルマッチング",
-        "games.game2.subtitle": "美しいタイルマッチング",
+        "games.game2.title": "Bus Parking Jam",
+        "games.game2.description": "駐車パズル",
+        "games.game2.subtitle": "戦略的駐車チャレンジ",
         "games.game3.title": "Match Kitty Tile",
         "games.game3.description": "猫を探す",
         "games.game3.subtitle": "猫探しアドベンチャー",
@@ -314,7 +314,7 @@ const translations = {
         "about.stats.rating": "平均評価",
         "about.stats.rating.value": "4.5+",
         "about.stats.partners": "開発者パートナー",
-        "about.stats.partners.value": "50+",
+        "about.stats.partners.value": "3+",
         "careers.title": "チームに参加",
         "careers.subtitle": "モバイルゲームの未来を一緒に創造しましょう",
         "careers.job1.title": "ゲームプロデューサー",
@@ -354,12 +354,12 @@ const translations = {
         "faq.play3.answer": "常にエキサイティングな新作を開発中です！ソーシャルメディアをフォローして最新の更新とお知らせをチェックしてください。",
         "contact.title": "お問い合わせ",
         "contact.email.title": "メール",
-        "contact.email.value": "contact@snapjoy.com",
+        "contact.email.value": "contact@snapjoy.cc",
         "contact.company.title": "会社",
         "contact.company.value": "SnapJoy CO., LIMITED",
         "footer.tagline": "楽しいゲーム体験を創造",
         "footer.rights": "全著作権所有。",
-        "footer.copyright": "© 2024 SnapJoy CO., LIMITED.",
+        "footer.copyright": "© 2025 SnapJoy CO., LIMITED.",
         "footer.company": "会社",
         "footer.games": "ゲーム",
         "footer.support": "サポート",
@@ -383,9 +383,9 @@ const translations = {
         "games.game1.title": "Find The Kitty",
         "games.game1.description": "삼중 매치",
         "games.game1.subtitle": "삼중 매치 어드벤처",
-        "games.game2.title": "Match Tile Scenery",
-        "games.game2.description": "타일 매칭",
-        "games.game2.subtitle": "아름다운 타일 매칭",
+        "games.game2.title": "Bus Parking Jam",
+        "games.game2.description": "주차 퍼즐",
+        "games.game2.subtitle": "전략적 주차 챌린지",
         "games.game3.title": "Match Kitty Tile",
         "games.game3.description": "고양이 찾기",
         "games.game3.subtitle": "고양이 찾기 어드벤처",
@@ -437,7 +437,7 @@ const translations = {
         "about.stats.rating": "평균 평점",
         "about.stats.rating.value": "4.5+",
         "about.stats.partners": "개발자 파트너",
-        "about.stats.partners.value": "50+",
+        "about.stats.partners.value": "3+",
         "careers.title": "팀에 합류하기",
         "careers.subtitle": "모바일 게임의 미래를 함께 만들어가세요",
         "careers.job1.title": "게임 프로듀서",
@@ -477,12 +477,12 @@ const translations = {
         "faq.play3.answer": "항상 흥미진진한 신작을 개발 중입니다! 소셜 미디어를 팔로우하여 최신 업데이트와 공지사항을 확인하세요.",
         "contact.title": "문의하기",
         "contact.email.title": "이메일",
-        "contact.email.value": "contact@snapjoy.com",
+        "contact.email.value": "contact@snapjoy.cc",
         "contact.company.title": "회사",
         "contact.company.value": "SnapJoy CO., LIMITED",
         "footer.tagline": "즐거운 게임 경험 창조",
         "footer.rights": "모든 권리 보유.",
-        "footer.copyright": "© 2024 SnapJoy CO., LIMITED.",
+        "footer.copyright": "© 2025 SnapJoy CO., LIMITED.",
         "footer.company": "회사",
         "footer.games": "게임",
         "footer.support": "지원",
@@ -756,35 +756,9 @@ function handleParallax() {
     }
 }
 
-// Counter animation for stats
+// Static display for stats (animation removed)
 function animateCounters() {
-    const counters = document.querySelectorAll('.stat-item h3');
-    const speed = 200;
-
-    counters.forEach(counter => {
-        const target = counter.innerText;
-        const count = +counter.innerText.replace(/\D/g, '');
-        const increment = count / speed;
-        let current = 0;
-
-        const updateCount = () => {
-            if (current < count) {
-                current += increment;
-                if (target.includes('K')) {
-                    counter.innerText = Math.ceil(current) + 'K+';
-                } else if (target.includes('.')) {
-                    counter.innerText = (current / 10).toFixed(1) + '+';
-                } else {
-                    counter.innerText = Math.ceil(current) + '+';
-                }
-                setTimeout(updateCount, 1);
-            } else {
-                counter.innerText = target;
-            }
-        };
-        
-        updateCount();
-    });
+    // Animation removed - stats display statically
 }
 
 // Intersection Observer for animations
@@ -800,10 +774,7 @@ function setupIntersectionObserver() {
                 entry.target.style.opacity = '1';
                 entry.target.style.transform = 'translateY(0)';
                 
-                // Trigger counter animation for stats section
-                if (entry.target.classList.contains('stats')) {
-                    setTimeout(animateCounters, 300);
-                }
+                // Stats animation removed - display statically
             }
         });
     }, observerOptions);
