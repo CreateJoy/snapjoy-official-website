@@ -43,7 +43,7 @@ Visit us at: [www.snapjoy.cc](https://www.snapjoy.cc)
 
 ## 📧 Contact
 
-Email: contact@snapjoy.com
+Email: contact@snapjoy.cc
 Company: SnapJoy CO., LIMITED
 
 ---
