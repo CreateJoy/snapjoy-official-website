@@ -617,6 +617,7 @@ function setupFormSubmission() {
 // Job application handling
 function setupJobApplications() {
     updateApplyButtonLinks();
+    console.log('Apply buttons updated with mailto links');
 }
 
 // Update apply button mailto links with localized content
